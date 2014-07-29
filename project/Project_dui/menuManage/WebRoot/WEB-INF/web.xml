@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>loginServlet</servlet-name>
+  <servlet-class>com.menu.servlet.loginServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>AddUsersServlet</servlet-name>
+  <servlet-class>com.menu.servlet.AddUsersServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>AddMenuServlet</servlet-name>
+  <servlet-class>com.menu.servlet.AddMenuServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>AdduserServlet</servlet-name>
+  <servlet-class>com.menu.servlet.AdduserServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>DeleteUserServlet</servlet-name>
+  <servlet-class>com.menu.servlet.DeleteUserServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>CourseServlet</servlet-name>
+  <servlet-class>com.menu.servlet.CourseServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>AddCourseServlet</servlet-name>
+  <servlet-class>com.menu.servlet.AddCourseServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminLoginServlet</servlet-name>
+  <servlet-class>com.menu.servlet.adminLoginServlet</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>com.menu.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectServlet</servlet-name>
+    <servlet-class>com.menu.servlet.SelectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LeaveMessageServlet</servlet-name>
+    <servlet-class>com.menu.servlet.LeaveMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMessageServlet</servlet-name>
+    <servlet-class>com.menu.servlet.DeleteMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookServlet</servlet-name>
+    <servlet-class>com.menu.servlet.BookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>com.menu.servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PlayServlet</servlet-name>
+    <servlet-class>com.menu.servlet.PlayServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+ <servlet-mapping>
+  <servlet-name>loginServlet</servlet-name>
+  <url-pattern>/loginServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>AddUsersServlet</servlet-name>
+  <url-pattern>/AddUsersServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>AddMenuServlet</servlet-name>
+  <url-pattern>/AddMenuServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>AdduserServlet</servlet-name>
+  <url-pattern>/AdduserServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>DeleteUserServlet</servlet-name>
+  <url-pattern>/DeleteUserServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CourseServlet</servlet-name>
+  <url-pattern>/CourseServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>AddCourseServlet</servlet-name>
+  <url-pattern>/AddCourseServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>adminLoginServlet</servlet-name>
+  <url-pattern>/adminLoginServlet</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectServlet</servlet-name>
+    <url-pattern>/SelectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LeaveMessageServlet</servlet-name>
+    <url-pattern>/LeaveMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMessageServlet</servlet-name>
+    <url-pattern>/DeleteMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookServlet</servlet-name>
+    <url-pattern>/BookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PlayServlet</servlet-name>
+    <url-pattern>/PlayServlet</url-pattern>
+  </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>login.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>
